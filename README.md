@@ -78,8 +78,9 @@ Visit the Figma file that you'd like to post updates for and copy its `file key`
 ### Publishing changes
 In the Figma file that you set up to post changes from, you can either publish your component changes or create a new version in your file's version history. Both of these kinds of changes will be posted to Slack.
 ###### Note: The "Description" field for each of these is required in order for it to be posted to Slack. If there is no description provided, the changes won't be mentioned in Slack.
+![Figma Version History](images/add-to-version-history.png)
 
 ### Slack updates
 Slack posts will happen every day at the time you've selected your Heroku Scheduler job to run (assuming changes were made in Figma). They'll appear with the date of the changes, followed by a list of all of your changes for that given day. 
-###### It's recommended that your descriptions for changes are prefixed with a "-" and followed by a newline. For example:
-> &nbsp;- Added an icon only wide/flexible button component"
+###### It's recommended that your descriptions for changes are prefixed with a "-" and followed by a newline.
+![Slack posts](images/updates.jpg)
