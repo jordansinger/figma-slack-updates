@@ -1,0 +1,26 @@
+{
+  "name": "Figma Slack updates",
+  "description": "Post updates to Slack from a Figma file's version history",
+  "repository": "https://github.com/jordansinger/figma-slack-updates",
+  "logo": "https://github.com/jordansinger/figma-slack-updates/blob/master/images/logo.png?raw=true",
+  "env": {
+    "FIGMA_PERSONAL_ACCESS_TOKEN": {
+      "description": "The Figma Personal Access Token created for your account"
+    },
+    "FIGMA_FILE_KEY": {
+      "description": "The Figma file key to post updates from"
+    },
+    "SLACK_TEAM_ID": {
+    	"description": "The team ID from the Slack Webhook URL"
+    },
+    "SLACK_USER_ID": {
+    	"description": "The user ID from the Slack Webhook URL"
+    },
+    "SLACK_CHANNEL_ID": {
+    	"description": "The channel ID from the Slack Webhook URL"
+    }
+  },
+  "addons": [
+    "scheduler"
+  ]
+}
