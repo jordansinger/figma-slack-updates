@@ -1,3 +1,4 @@
+![Logo](images/logo.png)
 # Figma Slack updates
 Automatically post updates to a Slack channel each day with the updates from a Figma file's version history. [View example](https://twitter.com/jsngr/status/1208161921687576577)
 
