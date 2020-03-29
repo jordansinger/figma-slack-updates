@@ -50,6 +50,8 @@ First, in the Figma file that you grabbed the file key for earlier, [make some c
 
 Now that you're all set up, your Slack channel will receive updates every day at the time you've selected your Heroku Scheduler job to run (assuming changes were made in Figma).
 
+If there was an issue while running, first make sure to double check that your Config Vars are correct in the Settings section of your Heroku app. If you're still running into an issue, be sure to [create an issue](https://github.com/jordansinger/figma-slack-updates/issues).
+
 ### Figma
 #### Get a Personal Access Token
 1. While logged into Figma on the web or the desktop app, visit your [Account Settings](https://www.figma.com/settings)
@@ -71,7 +73,7 @@ Visit the Figma file that you'd like to post updates for and copy its `file key`
 2. Turn the **Activate Incoming Webhooks** toggle on
 3. Under **Webhook URLs for Your Workspace**, click "Add New Webhook to Workspace"
 4. Choose a channel for the Slack app to post updates to
-5. Under **Webhook URLs for Your Workspace**, take note of the code inside of "Sample curl request to post to a channel". There are three pieces of info to copy from the URL: the team ID, user ID, and channel ID. hooks.slack.com/services/`team id`/`user id`/`channel id`. These are your `SLACK_TEAM_ID`, `SLACK_USER_ID`, and `SLACK_CHANNEL_ID`
+5. Under **Webhook URLs for Your Workspace**, take note of the code inside of "Sample curl request to post to a channel". There are three pieces of info to copy from the URL: the team ID, user ID, and channel ID. hooks.slack.com/services/`team id`/`user id`/`channel id`. In sequential order, these are your `SLACK_TEAM_ID`, `SLACK_USER_ID`, and `SLACK_CHANNEL_ID`
 ![Webhook URLs for Your Workspace](images/created-webhook-url.png)
 
 ## Figma Version History
