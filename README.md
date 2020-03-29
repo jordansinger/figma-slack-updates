@@ -1,6 +1,22 @@
 # Figma Slack updates
 Automatically post updates to a Slack channel each day with the updates from a Figma file's version history
 
+- [Setting up](#setting-up)
+  - [Heroku](#heroku)
+      - [Deploying the Heroku app](#deploying-the-heroku-app)
+      - [Setting up your Heroku app](#setting-up-your-heroku-app)
+      - [Customizing your job](#customizing-your-job)
+      - [Testing that it worked](#testing-that-it-worked)
+  - [Figma](#figma)
+      - [Get a Personal Access Token](#get-a-personal-access-token)
+      - [Get your file key](#get-your-file-key)
+  - [Slack](#slack)
+      - [Create a new Slack app](#create-a-new-slack-app)
+      - [Activate Incoming Webhooks](#activate-incoming-webhooks)
+- [Figma Version History](#figma-version-history)
+    - [Publishing changes](#publishing-changes)
+    - [Slack updates](#slack-updates)
+
 ## Setting up
 
 ### Heroku
